@@ -67,24 +67,11 @@
         cursor: pointer;
         transition: background-color 0.2s, transform 0.2s;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-
-        /* Center horizontally */
-        position: absolute;
-        left: 35%;
-        transform: translateX(-50%);
-
-        /* Center vertically */
-        top: 50%;
-        transform: translateY(-50%);
       }
 
       button:hover {
         background-color: #ffcc33;
         transform: scale(1.1);
-      }
-
-      button:first-child:hover {
-        background-color: #0099cc;
       }
     </style>
   </head>
@@ -162,6 +149,8 @@
 
       gameLoop(); // start the game loop
     </script>
-    <a href="index.html"><button>Home</button></a>
+    <div style="text-align: center">
+      <a href="index.html"><button>Home</button></a>
+    </div>
   </body>
 </html>
