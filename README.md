@@ -30,7 +30,7 @@ To play any of these games, simply run the corresponding file in your preferred 
 
 # Website
 
-The AI Games website is live and can be accessed at [insert website URL here]. The website showcases the games included in this project and provides additional information about each one. Visitors can play the games directly on the website, making it easy to try them out and see for themselves how AI can create fun and engaging games.
+The AI Games website is live and can be accessed at https://mckayfackrell.github.io/ai-games/index.html. The website showcases the games included in this project and provides additional information about each one. Visitors can play the games directly on the website, making it easy to try them out and see for themselves how AI can create fun and engaging games.
 
 # Conclusion
 
