@@ -6,6 +6,10 @@ AI Games is a project that showcases the ability of AI to create playable games 
 
 # Games
 
+| Homepage | DVD Corners | Hangman | Match | Pong | Snake | Tic Tac Toe |
+|---------|---------|---------|---------|---------|---------|---------|
+|![home](https://user-images.githubusercontent.com/110206514/230989257-b897d718-7759-41ba-8304-81eb0c6b0a0e.jpg)|![corners](https://user-images.githubusercontent.com/110206514/230989251-a78c5a06-bcad-4c6d-a47d-03a77355d48a.jpg)| ![hangman](https://user-images.githubusercontent.com/110206514/230989254-e548a93a-0085-49f7-aad6-227419a9b0c3.jpg) | ![match](https://user-images.githubusercontent.com/110206514/230989264-00002bf6-ede0-456c-ba82-41b4d0e55970.jpg) |![pong](https://user-images.githubusercontent.com/110206514/230989265-c1843302-8229-4f74-8f66-c7b5a42adb88.jpg) |![snake](https://user-images.githubusercontent.com/110206514/230989270-e3372db0-bad5-4f3c-a68c-f0952d4f7394.jpg) | ![tictactoe](https://user-images.githubusercontent.com/110206514/230989274-738c1c05-10e3-4895-8ddb-1192a8e30115.jpg) |
+
 ## DVD Corners
 DVD Corners is a simple game where a DVD starts bouncing off the walls of a rectangular play area. You have to choose a corner that has a color and just see which one gets the most points. The longer you stay alive, the higher your score. The game ends when you hit the DVD or when you quit.
 
