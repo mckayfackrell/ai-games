@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+    <title>Hangman</title>
+  </head>
+  <body onload="newGame()">
+    <header>
+      <h1>Hangman</h1>
+    </header>
+    <main>
+      <p>Guess the word:</p>
+      <p id="word"></p>
+      <p>Remaining: <span id="guesses"></span></p>
+      <p>Incorrect: <span id="incorrect"></span></p>
+      <input type="text" id="guess" placeholder="Enter a letter" />
+      <button onclick="guessLetter()">Guess</button>
+      <button onclick="newGame()">New Game</button>
+    </main>
+  </body>
+  <div style="text-align: center">
+    <a href="./../index.html"><button>Home</button></a>
+  </div>
+  <script src="./../javascript/hangman.js"></script>
+</html>

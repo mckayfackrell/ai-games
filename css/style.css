@@ -1,0 +1,175 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  font-family: Arial;
+  margin: 10px;
+}
+input {
+  font-size: 24px;
+  padding: 10px;
+  border: 2px solid #005470;
+  border-radius: 5px;
+}
+
+/* Header styles */
+header {
+  background-color: #005470;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main content styles */
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #005470;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Canvas styles */
+canvas {
+  border: 5px solid black;
+  background-color: #eee;
+  display: block;
+  margin: 0 auto;
+}
+.pong {
+  width: auto;
+  height: auto;
+}
+
+/* Games section styles */
+.games {
+  text-align: center;
+}
+
+.games h2 {
+  margin-top: 0;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #005470;
+  text-shadow: 2px 2px #f0f0f0;
+}
+
+/* Button styles */
+button {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: #005470;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #0099cc;
+  transform: scale(1.1);
+}
+
+/* Corner boxes styles */
+#top-left,
+#top-right,
+#bottom-left,
+#bottom-right {
+  position: absolute;
+  padding: 10px;
+  font-size: 24px;
+}
+
+#top-left {
+  top: 0;
+  left: 0;
+  background-color: green;
+  color: white;
+}
+
+#top-right {
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+}
+
+#bottom-left {
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  color: white;
+}
+
+#bottom-right {
+  bottom: 0;
+  right: 0;
+  background-color: yellow;
+  color: black;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 72px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+td:hover {
+  background-color: #e6e6e6;
+}
+
+td[data-value="X"] {
+  color: #ff6666;
+}
+
+td[data-value="O"] {
+  color: #66b3ff;
+}
+
+#game-wrapper {
+  width: 500px; /* adjust as needed */
+  margin: 0 auto; /* center the wrapper horizontally */
+}
+
+.card {
+  display: inline-block;
+  width: 100px; /* adjust as needed */
+  height: 100px; /* adjust as needed */
+  background-color: gray;
+  margin: 10px;
+}

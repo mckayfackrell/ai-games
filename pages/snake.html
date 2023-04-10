@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+    <title>Snake</title>
+  </head>
+  <body>
+    <header>
+      <h1>Snake</h1>
+    </header>
+    <main>
+      <canvas id="canvas" width="320" height="320"></canvas>
+      <p id="score">Score: 0</p>
+      <div id="buttons">
+        <button
+          class="dpad-btn"
+          id="leftBtn"
+          onclick="snake.setDirection('left')"
+        >
+          ◄
+        </button>
+        <button class="dpad-btn" id="upBtn" onclick="snake.setDirection('up')">
+          ▲
+        </button>
+        <button
+          class="dpad-btn"
+          id="downBtn"
+          onclick="snake.setDirection('down')"
+        >
+          ▼
+        </button>
+        <button
+          class="dpad-btn"
+          id="rightBtn"
+          onclick="snake.setDirection('right')"
+        >
+          ►
+        </button>
+      </div>
+      <button onclick="newGame()">New Game</button>
+    </main>
+    <div style="text-align: center">
+      <a href="./../index.html"><button>Home</button></a>
+    </div>
+    <script src="./../javascript/snake.js"></script>
+  </body>
+</html>

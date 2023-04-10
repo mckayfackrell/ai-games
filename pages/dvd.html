@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+    <title>DVD Corners</title>
+  </head>
+  <body class="dvd">
+    <header>
+      <h1>DVD Corners</h1>
+    </header>
+    <main
+      style="
+        height: 320px;
+        display: flex;
+        max-width: auto;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div id="top-left">Score: <span id="top-left-score">0</span></div>
+      <div id="top-right">Score: <span id="top-right-score">0</span></div>
+      <div id="bottom-left">Score: <span id="bottom-left-score">0</span></div>
+      <div id="bottom-right">Score: <span id="bottom-right-score">0</span></div>
+      <canvas id="game-canvas"></canvas>
+      <button onclick="newGame()">New Game</button>
+    </main>
+
+    <div style="text-align: center">
+      <a href="./../index.html"><button>Home</button></a>
+    </div>
+    <script src="./../javascript/dvd.js"></script>
+  </body>
+</html>

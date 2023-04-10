@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+    <title>Pong</title>
+  </head>
+  <body onload="newGame()">
+    <header>
+      <h1>Pong</h1>
+    </header>
+    <main>
+      <canvas
+        class="pong"
+        id="game-canvas"
+        width="270vw"
+        height="250vh"
+      ></canvas>
+      <p id="player-score">Player: 0</p>
+      <p id="comp-score">Computer: 0</p>
+      <div>
+        <button id="up-btn">▲</button>
+        <button id="down-btn">▼</button>
+      </div>
+      <button onclick="newGame()">New Game</button>
+    </main>
+  </body>
+  <div style="text-align: center">
+    <a href="./../index.html"><button>Home</button></a>
+  </div>
+  <script src="./../javascript/pong.js"></script>
+</html>
